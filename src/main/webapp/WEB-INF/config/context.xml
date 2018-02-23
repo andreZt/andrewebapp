@@ -1,0 +1,11 @@
+<Context>
+    <!--url="jdbc:postgresql://127.0.0.1:15432/postgres"-->
+    <!--url="jdbc:postgresql://dvviberbotsql:5432/dvviberbotdb"-->
+    <Resource
+            name="jdbc/andrewebapp" auth="Container"
+            type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
+            url="jdbc:postgresql://dvviberbotsql:5432/dvviberbotdb"
+            username="Admin" password="Admin1q" maxTotal="20" maxIdle="10"
+            maxWaitMillis="-1"
+    />
+</Context>

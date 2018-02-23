@@ -22,6 +22,12 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
-    <context:component-scan base-package="controllers" />
+    <context:component-scan base-package="app" />
 
+    <mvc:interceptors>
+     		<mvc:interceptor>
+     			<mvc:mapping path="/*" />
+     			<bean class="app.intercentors.LoginUserInterceptor" />
+     		</mvc:interceptor>
+     	</mvc:interceptors>
 </beans>

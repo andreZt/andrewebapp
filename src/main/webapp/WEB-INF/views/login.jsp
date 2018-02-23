@@ -14,8 +14,12 @@
 			<fieldset class="boxBody">
 			  	<form:label path="userName">Username</form:label>
 			  	<form:input path="userName" type="text" tabindex="1" placeholder="userName" required="true"/>
+				<form:errors path="userName" cssClass="error"/>
+
 			  	<form:label path="userPassword"><a href="#" class="rLink" tabindex="5">Forget your password?</a>Password</form:label>
 			  	<form:input path="userPassword" type="password" tabindex="2" required="true" placeholder="password"/>
+				<form:errors path="userPassword" cssClass="error"/>
+
 			</fieldset>
 			<footer>
 			 	<label><input type="checkbox" tabindex="3">Keep me logged in</label>

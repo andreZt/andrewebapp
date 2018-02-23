@@ -34,7 +34,8 @@
                     <h2 class="title"><a href="#">Post name 1</a></h2>
                     <p class="byline">Posted by User 1</p>
                     <div class="entry">
-                        <p>Some text. Enjoy :)</p>
+                        <p>Some text. Enjoy :)
+                        </p>
                     </div>
                     <div class="meta">
                         <p class="links"><a href="#" class="comments">Comments (32)</a></p>

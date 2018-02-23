@@ -1,6 +1,8 @@
-package objects;
+package app.objects;
+import javax.validation.constraints.Size;
 
 public class User {
+    @Size (min = 6, message = "довжина 6 знаків")
     private String userName;
     private String userPassword;
 
